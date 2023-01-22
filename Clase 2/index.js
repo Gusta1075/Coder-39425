@@ -157,7 +157,7 @@ condicion1 || condicion2 => es verdadera siempre y cuando al menos una de las do
 //   console.log("no entramos al if");
 // }
 
-let nombre = prompt("Ingrese el nombre");
+//let nombre = prompt("Ingrese el nombre");
 
 // if(nombre === "pepito" || nombre === "PEPITO"){
 //   alert("Hola pepito");
@@ -165,7 +165,7 @@ let nombre = prompt("Ingrese el nombre");
 //   alert("No eres pepito");
 // }
 
-if(nombre.toUpperCase() === "PEPITO"){
+/*if(nombre.toUpperCase() === "PEPITO"){
   alert("Hola pepito");
 }else{
   alert("No eres pepito");
@@ -173,3 +173,15 @@ if(nombre.toUpperCase() === "PEPITO"){
 
 //toUpperCase()  convierte un string en mayúscula
 //toLowerCase()  convierte un string en minúscula
+*/
+
+let edad = prompt("ingrese su edad");
+
+if(edad <18) {
+  alert("eres menor de edad, no puedes tomar alcohol")
+} else if(edad >50){
+  alert ("eres muy y mayor y no puedes tomar alcohol")
+} else {
+  alert("puedes tomar alcohol sin problemas")
+}
+
