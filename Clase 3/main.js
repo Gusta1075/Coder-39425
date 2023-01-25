@@ -110,7 +110,7 @@ switch(valor){
     codigo a ejecutar cuando el valor no coincide con ninguno de los anteriores valores
     break;
 }
-*/
+
 
 let nombre = prompt("Ingrese un nombre");
 
@@ -152,4 +152,5 @@ switch(moneda){
     break;
 }
 
-if(moneda === "ars" || moneda === "arsd")
+if(moneda === "ars" || moneda === "arsd");
+*/
