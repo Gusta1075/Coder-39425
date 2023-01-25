@@ -28,9 +28,9 @@ for(desde; hasta; actualizacion){
 
 // for(let turno = 1; turno <= 7; turno++){
 //   let nombre = prompt("Ingrese su nombre");
-//   let mensaje = `Turno #${turno} Nombre: ${nombre}`;
-//   alert(mensaje);
-// }
+ //let mensaje = `Turno #${turno} Nombre: ${nombre}`;
+ // alert(mensaje);
+//}
 
 // for(let i = 1; i <= 10; i++){
 //   if(i === 5){
