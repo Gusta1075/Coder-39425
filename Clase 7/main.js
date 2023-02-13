@@ -1,4 +1,4 @@
-/ function mayorQue(n){
+/* function mayorQue(n){
     //   return m => m > n;
     // }
     
@@ -51,12 +51,12 @@
     
     // iterar([1, 5, 3, 5, 8], console.log);
     
-    let productos = [
-      { id: 1, nombre: "camisa", precio: 1000 },
-      { id: 2, nombre: "pantalon", precio: 700 },
-      { id: 3, nombre: "gorra", precio: 1350 },
-      { id: 4, nombre: "zapato", precio: 800 },
-    ];
+    //let productos = [
+      //{ id: 1, nombre: "camisa", precio: 1000 },
+      //{ id: 2, nombre: "pantalon", precio: 700 },
+    //  { id: 3, nombre: "gorra", precio: 1350 },
+    //  { id: 4, nombre: "zapato", precio: 800 },
+    //];
     
     //recorre el arreglo
     // productos.forEach(producto => {
