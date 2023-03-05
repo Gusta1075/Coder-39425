@@ -175,7 +175,7 @@ condicion1 || condicion2 => es verdadera siempre y cuando al menos una de las do
 //toLowerCase()  convierte un string en minúscula
 */
 
-let edad = prompt("ingrese su edad");
+/* let edad = prompt("ingrese su edad");
 
 if(edad <18) {
   alert("eres menor de edad, no puedes tomar alcohol")
@@ -183,5 +183,5 @@ if(edad <18) {
   alert ("eres muy y mayor y no puedes tomar alcohol")
 } else {
   alert("puedes tomar alcohol sin problemas")
-}
+} */
 

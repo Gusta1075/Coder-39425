@@ -6,6 +6,15 @@ de
 varias
 lineas
 */
+/* 
+let numeroUno = 4;
+let numeroDos = 6;
+
+let resultadoSuma = numeroUno + numeroDos + " es el resultado";
+
+console.log(resultadoSuma); */
+
+
 
 // let edad; //declaracion de una variable recomendada
 // edad = 16; //asignacion de una variable
@@ -35,9 +44,9 @@ lineas
 
 // let saludoCompleto = saludo + " " + nombre;
 // console.log(saludoCompleto);
-
-// let nombre = prompt("Ingrese su nombre");
-// console.log("el nombre de la persona es", nombre);
+/* 
+ let nombre = prompt("Ingrese su nombre");
+alert("el nombre de la persona es " + nombre); */
 
 // let nombre = prompt("Ingrese su nombre");
 // alert("el nombre de la persona es " + nombre);
@@ -48,11 +57,26 @@ lineas
 // console.log(typeof(edad));
 // console.log(typeof(nombre));
 
-let variable = parseFloat(prompt("Ingrese algo"));
-alert(typeof(variable));
+/* let variable = parseFloat(prompt("Ingrese algo"));
+alert(typeof(variable)); */
 
 
-let entrada = prompt("ingrese una letra");
-let salida = entrada + " " + "ingresada";
+//let entrada = prompt("ingrese una letra");
+//let salida = entrada + " " + "ingresada";
+//alert(salida);
+//console.log(entrada);
+
+let entradaNombre = prompt("ingrese su nombre")
+let entradaApellido = prompt("Apellido");
+let entradaEdad = prompt("Edad");
+
+let salida = "Hola" + " " +  entradaNombre +  " " + entradaApellido;
+let salida2 = "sabemos que tienes " + entradaEdad + "años";
+let sumaEdad = 10;
+let salida3 = "en 10 años terndras" + parseInt(entradaEdad) + parseInt(sumaEdad); 
+
+console.log(salida3);
+
 alert(salida);
-console.log(entrada);
+alert(salida2);
+alert(salida3);
